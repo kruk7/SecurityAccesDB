@@ -15,10 +15,10 @@ import java.io.IOException;
 public class UserServlet extends HttpServlet
 {
     @Inject
-    UserRepository userRepo;
+    private UserRepository userRepo;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
-    {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         String role = request.getParameter("role");

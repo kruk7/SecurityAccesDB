@@ -12,5 +12,8 @@
   </head>
   <body>
   <h1>Welcome Page</h1>
+  <a href="login.html">login</a><br/>
+  <a href="register.html">register</a><br/>
+  <a href="secret">Secret</a>
   </body>
 </html>
